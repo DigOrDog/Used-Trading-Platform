@@ -10,10 +10,10 @@ spring:
     time-zone: GMT+8
     default-property-inclusion: non_null
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/c2c?characterEncoding=utf8&useUnicode=true
-    username: root
-    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.99.253.243:3306/c2c?characterEncoding=utf8&useUnicode=true
+    username: luntan
+    password: 1919810wwd
   thymeleaf:
     cache: false
     suffix: .html
